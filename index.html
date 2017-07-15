@@ -1,31 +1,259 @@
 <head>
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="fonts.css">
+  <link rel="stylesheet" href="layout.css">
+  <link rel="stylesheet" href="colors.css">
+  <link rel="stylesheet" href="shapes.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.13/moment-timezone-with-data-2012-2022.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/jquery.gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TimelineLite.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TimelineMax.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenLite.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.js"></script>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="manifest" href="manifest.json">
+  <link rel="mask-icon" href="safari-pinned-tab.svg" color="#000000">
+  <meta name="apple-mobile-web-app-title" content="Velocity Program">
+  <meta name="application-name" content="Velocity Program">
+  <meta name="theme-color" content="#ffffff">
+
+<!--
+  <link rel="stylesheet" href="https://basehold.it/28">
+-->
 </head>
 
 <body>
-  <div class="parallax">
-
-    <div id="pt"></div>
-
-    <div id="main-text-parent">
-      <div id="content">
-        <span id="main-text">We lend private sector digital practicioners to social innovators
-          <span id="main-subtext">drive change faster, together</span>
-          <div id="#intro-text" class="text">
-            We support the founding teams of growing social enterprises by connecting
-            them with digital experts from leading technology companies. In rapid
-            sprints, they work together to re-invent their businesses in product,
-            analytics and automation.
-          </div>
-          <span class="header">Meet your advisers</span>
-          <div class="text">Our experts have worked in leading technology and digital consulting firms</div>
-        </span>
+    <div id="background">
+      <!--<img src="img/Bg.jpg" />-->
+    </div>
+    <div id="top-bar">
+      <div id="logo-container">
+        <object type="image/svg+xml" height="48px" id="main-logo" data="img/Velocity Logo + Name.svg"></object>
+        <object type="image/svg+xml" height="48px" id="main-logo--small" data="img/Velocity Logo Square.svg"></object>
+      </div>
+      <div id="menu-icon-container" class="icon-container">
+        <object type="image/svg+xml" height="24px" id="hamburger-icon" data="img/ic_menu_black_24px.svg"></object>
+      </div>
+      <div id="close-icon-container" class="icon-container close-icon--invisible">
+        <object type="image/svg+xml" height="24px" id="close-icon" data="img/ic_close_black_24px.svg"></object>
       </div>
     </div>
-  </div>
-  <div id="footer"></div>
+    <div id="navigation-menu" class="navigation-menu--invisible">
+      <ul>
+        <li><a class="menu-link" href="#Introduction">Introduction</a></li>
+        <li><a class="menu-link" href="#Process">Process</a></li>
+        <li><a class="menu-link" href="#Story">Story</a></li>
+        <li><a class="menu-link" href="#Advisers">Advisers</a></li>
+      </ul>
+    </div>
+    <div id="main-content">
+      <a name="Introduction">
+        <section id="main-section">
+          <div class="three-column">
+            <span id="lead-text">
+              We lend private sector digital practicioners to social innovators
+            </span>
+          </div>
+        </section>
+      </a>
+      <section>
+        <ul id="important-links">
+          <li class="link-paragraph">
+            <a href="mailto:hello@velocityprogram.org" class="important-link">
+              <object class="velocity-square" type="image/svg+xml" data="img/velocity_square.svg"></object>
+              I'm a social entrepreneur
+            </a>
+          </li>
+          <li class="link-paragraph">
+            <a href="mailto:hello@velocityprogram.org" class="important-link">
+              <object class="velocity-square" type="image/svg+xml" data="img/velocity_square.svg"></object>
+              I'm a digital product manager
+            </a>
+          </li>
+        </ul>
+      </section>
 
+
+      <section id="process-section" class="content-section">
+        <a name="Process">
+          <h2 class="section-title" id="process-header">Process</h2>
+        </a>
+        <div class="right-three-column">
+          <div id="space">
+            <div class="upper-triangle"></div>
+            <div class="lower-triangle"></div>
+            <div id="pt"></div>
+          </div>
+        </div>
+        <p class="section-content">
+          We support the founding teams of growing social enterprises by connecting them with product managers from leading technology companies. In rapid sprints, they work together to re-invent the business.
+          The participating companies all share three characteristics.
+            First, they possess the potential to deliver unique impact at scale to communities in need.
+            Second, they present an opportunity for using technology and digital to grow impact.
+            Third, they are run by Founders passionate and knowledgeable about their causes that have a disciplined use of measurement in their business and a keen awareness of potential opportunities and problem areas.
+        </p>
+      </section>
+
+      <section id="product-section" class="content-section">
+        <h2 class="section-title" id="product-header">Product</h2>
+        <div>
+          <div class="right-three-column triangle-column" id="product-pic">
+            <object type="image/svg+xml" width="100%" class="focus-area-sign" data="img/Product sign.svg"></object>
+          </div>
+          <p class="section-content">
+            Our Product program supports enterprises in realising product-led growth, building great experiences by embedding user-centric considerations
+            and capitalising on opportunities to expand the product portfolio.
+          <p class="section-small-content">
+            Seeing your program, service or digital presence as a product allows you to tap into
+            organisational patterns developed over decades in Silicon Valley.
+          </p>
+          <ul class="our-process-list product-list">
+            <li>What process could maximize team velocity?</li>
+            <li>How to develop a coherent and responsive product strategy?</li>
+            <li>How to embed Human Centric Design practices?</li>
+            <li>What is the right Agile team and how do we fill these roles?</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="analytics-section" class="content-section">
+        <h2 class="section-title" id="analytics-header">Analytics</h2>
+        <div>
+          <div class="right-three-column triangle-column" id="analytics-pic">
+            <object type="image/svg+xml" width="100%" class="focus-area-sign" data="img/Analytics sign.svg"></object>
+          </div>
+          <p class="section-content">
+            Our Analytics program is designed to identify novel analytics applications and manage their implementation
+            across technology, model architecture, data, statistical investigation and other aspects.
+          </p>
+          <p class="section-small-content">
+            An intelligent use of data and analytics can maximise return on funding
+            and support entirely new social business models.
+          </p>
+          <ul class="our-process-list analytics-list">
+            <li>How to execute analytical models (hardware, software and tooling)?</li>
+            <li>Which analytical models should we exploit?</li>
+            <li>How to manage and protect our data?</li>
+            <li>When do we need AI vs. business intelligence and what roles fit the challenges we face?</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="workflows-section" class="content-section">
+        <h2 class="section-title" id="workflows-header">Workflows</h2>
+        <div>
+          <div class="right-three-column triangle-column" id="workflows-pic">
+            <object type="image/svg+xml" width="100%" class="focus-area-sign" data="img/Workflows sign.svg"></object>
+          </div>
+          <p class="section-content">
+            Our Workflows program pairs your operators with the best technology
+            to supercharge processes, coordination, speed and service quality.
+          </p>
+          <p class="section-small-content">
+            Your company is a machine. With recent advances in productivity tools and intelligent assistants,
+            the machine has the potential to go a lot faster.
+          </p>
+          <ul class="our-process-list workflows-list">
+            <li>What workflow software do we want to use?</li>
+            <li>How do we want our product and business teams to work together?</li>
+            <li>How can we achieve greater oversight our field programs?</li>
+            <li>How can we liberate reporting?</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="our-story-section" class="content-section">
+        <a name="Story">
+          <h2 class="section-title" id="story-header">Story</h2>
+        </a>
+        <p class="section-content">
+          Peteris and Michael met at McKinsey London in 2013 where they saw first-hand how digital was changing the private sector. Now as Product
+          Managers, they started Velocity Program to bring a similar transformation to the social sector. They have a dual mission:
+          using technology to bring measurable impact to the social sector and raising awareness and affinity
+          for social issues in the private sector.
+        </p>
+      </section>
+
+      <section id="peteris-section" class="content-section">
+        <h2 class="section-title" id="peteris-header">Peteris Erins</h2>
+          <div class="founder-pic-container">
+            <img class="founder-pic" id="peteris-pic" src="img/Peteris Slice.png" />
+            <div id="peteris-overlay" class="founder-sign-overlay">
+              <object type="image/svg+xml" width="100%" class="focus-area-sign" data="img/Front.svg"></object>
+            </div>
+          </div>
+          <p class="section-content founder-content">
+              Peteris has been working with NGOs on social impact and strategy topics for 4 years via McKinsey and Ashoka.
+              He is a Product Manager at QuantumBlack and previously was a consultant in the EMEA Marketing and Sales Practice at McKinsey.
+              Prior to that he worked as a Software Engineer and Data Scientist at several technology companies including Google and Twitter.
+              He has a BA in Mathematics from Cambridge University.
+          </p>
+      </section>
+
+      <section id="michael-section" class="content-section">
+        <h2 class="section-title" id="mike-header">Michael Cheung</h2>
+          <div class="founder-pic-container">
+            <img class="founder-pic" id="mike-pic" src="img/Mike Slice.png" />
+            <div id="mike-overlay" class="founder-sign-overlay">
+              <object type="image/svg+xml" width="100%" class="focus-area-sign" data="img/Front.svg"></object>
+            </div>
+          </div>
+          <p class="section-content founder-content">
+            Michael works with NGOs and nonprofits on Analytics and Machine learning infrastructure.
+            He leads Machine Learning investments at a venture capital fund.
+            Prior to this he was a Global Program Director at Tencent,
+            an Analytics Engagement Manager at McKinsey and a Data Scientist at dunnhumby. He has a BEng in Engineering from The University of Warwick
+          </p>
+      </section>
+
+      <section id="advisers-section" class="content-section">
+        <a name="Advisers">
+          <h2 class="section-title" id="advisers-header">Advisers</h2>
+        </a>
+        <p class="section-content">
+          We match social entrepreneurs with advisers from well-established digital technology and advisory companies.
+        </p>
+        <div id="adviser-company-logos">
+          <div class="adviser-logo">
+            <object type="image/svg+xml" data="img/Google.svg"></object>
+          </div>
+          <div class="adviser-logo">
+            <object type="image/svg+xml" data="img/McKinseyAndCompany.svg"></object>
+          </div>
+          <div class="adviser-logo">
+            <object type="image/svg+xml" data="img/Twitter.svg"></object>
+          </div>
+          <div class="adviser-logo">
+            <object type="image/svg+xml" data="img/Tencent.svg"></object>
+          </div>
+          <div class="adviser-logo">
+            <object type="image/svg+xml" data="img/Dunhumby.svg"></object>
+          </div>
+          <div class="adviser-logo">
+            <object type="image/svg+xml" data="img/QuantumBlack.svg"></object>
+          </div>
+          <div class="flex-filler"></div>
+          <div class="flex-filler"></div>
+        </div>
+      </section>
+
+      <footer id="footer">
+        <p>Hello@velocityprogram.org</p>
+        <p>London &nbsp;&nbsp; <span id="london-time"></span> &nbsp;&nbsp;/&nbsp;&nbsp;  Hong Kong &nbsp;&nbsp; <span id="hong-kong-time"></span></p>
+        <p>© Velocity Program 2017. All rights reserved</p>
+      </footer>
+    </div>
 </body>
 
 <script>
@@ -40,3 +268,4 @@
 </script>
 <script src="pt.js"></script>
 <script src="main.js"></script>
+<script src="http://localhost:35729/livereload.js"></script>

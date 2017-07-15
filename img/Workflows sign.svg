@@ -1,0 +1,18 @@
+<svg width="132" height="262" viewBox="0 0 132 262" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Workflows sign</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-1292 -416)">
+<g id="Workflows sign">
+<g id="Front">
+<use xlink:href="#path0_fill" transform="translate(1292 416)" fill="#C656CC"/>
+</g>
+<g id="P">
+<use xlink:href="#path1_fill" transform="translate(1324 518)"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 130.246L 0 262L 132 131L 132 0L 0 130.246Z"/>
+<path id="path1_fill" d="M 9.5957 3.79004L 19.0635 44.6348L 30.4111 3.79004L 37.7939 3.79004L 49.1416 44.6348L 58.6094 3.79004L 66.0605 3.79004L 52.8672 54L 45.7236 54L 34.1367 12.3691L 22.4814 54L 15.3379 54L 2.21289 3.79004L 9.5957 3.79004Z"/>
+</defs>
+</svg>
