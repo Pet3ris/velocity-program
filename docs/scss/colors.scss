@@ -1,0 +1,42 @@
+/* Main page */
+
+body {
+  /*background-color: #fff;*/
+  /*
+  background-color: rgb(254, 254, 254);
+  */
+  color: #000;
+}
+
+div#top-bar {
+  /* background: #fff; */
+  background-color: rgb(254, 254, 254);
+  opacity: 0.9;
+}
+
+.important-link, .important-link:active, .important-link:hover, .important-link:visited {
+  /*color: #2F80ED;*/
+  color: #fff;
+}
+
+ul.our-process-list > li, p.section-small-content {
+  color: #555555;
+}
+
+footer#footer p {
+  color: #3d3d3d;
+}
+
+/* Navigation page */
+
+#navigation-menu a, #navigation-menu a:hover, #navigation-menu a:active, #navigation-menu a:visited {
+  color: #000;
+}
+
+#navigation-menu a:hover {
+  color: #555;
+}
+
+div#navigation-menu {
+  background-color: rgb(254, 254, 254);
+}

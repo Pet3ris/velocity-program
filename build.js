@@ -3,7 +3,7 @@ var debug = require('metalsmith-debug');
 
 metalsmith(__dirname)
   .source('./src')
-  .destination('./public')
+  .destination('./docs')
   .use(debug())
   .build(function (err) {
     if (err) {
