@@ -1,0 +1,89 @@
+/* Main logo */
+
+@media (min-width: 300px) {
+  object#main-logo {
+    max-width: calc(100% - 48px);
+  }
+
+  object#main-logo--small {
+    display: none;
+  }
+}
+@media (max-width: 299px) {
+  object#main-logo {
+    display: none;
+  }
+}
+
+/* Menu icons */
+
+div.icon-container {
+  height: 48px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 48px;
+}
+  #hamburger-icon, #close-icon {
+    position: absolute;
+    right: calc(50% - (24 * 1 / 2)*1px);
+    top: calc(50% - (24 * 1 / 2)*1px); /* half of 24 px icon */
+  }
+
+/* Founder picture and shape */
+
+img.founder-pic {
+  max-width: 100%;
+}
+
+div.founder-pic-container {
+  /*max-width: calc((100% - 4*20px - 2*8px) / 5 * 3 + 2*20px);*/
+  width: 12rem;
+  padding: 0 0 1.5rem 1rem;
+  float: right;
+}
+
+@media screen and (max-width: 25rem) and (min-width: 20rem) {
+  div.founder-pic-container {
+    width: 9rem;
+  }
+}
+
+@media screen and (max-width: 20rem) {
+  div.founder-pic-container {
+    width: 100%;
+    padding: 0 0 0.5rem 0;
+    float: none;
+  }
+}
+
+div.founder-sign-overlay {
+  position: relative;
+  /*top: -100;*/
+  left: calc((100% - 2*20px)/3 + 20px);
+  max-width: calc((100% - 2*20px)/3 * 2 + 20px);
+  display: none;
+}
+
+div.right-three-column {
+  margin: 0rem 0 3rem 0;
+  width: 6rem;
+  z-index: -5;
+  float: right;
+}
+
+@media screen and (min-width: 52rem) {
+  div.right-three-column {
+    width: 12rem;
+  }
+
+  div.founder-pic-container {
+    width: 15rem;
+  }
+}
+
+@media screen and (min-width: 52rem) {
+  div.right-three-column, div.founder-pic-container {
+    margin-left: 3rem;
+  }
+}

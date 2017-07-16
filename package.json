@@ -1,0 +1,31 @@
+{
+  "name": "velocity-program",
+  "version": "0.0.1",
+  "description": "Velocity Program website",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "build": "node build.js && node-sass src/scss -o public/css --output-style compressed && uglifyjs src/js/* --compress --mangle -o public/js/script.min.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pet3ris/velocity-program.git"
+  },
+  "author": "Velocity Program <hello@velocityprogram.org> (http://www.velocityprogram.org)",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Pet3ris/velocity-program/issues"
+  },
+  "homepage": "https://github.com/Pet3ris/velocity-program#readme",
+  "private": "true",
+  "dependencies": {
+    "express": "^4.15.3",
+    "metalsmith": "^2.3.0",
+    "metalsmith-debug": "^1.1.0",
+    "node-sass": "^4.5.3"
+  },
+  "devDependencies": {
+    "node-sass": "^4.5.3"
+  }
+}

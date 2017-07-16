@@ -1,0 +1,23 @@
+<svg width="200" height="200" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Velocity Logo Square</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-310 -2204)">
+<clipPath id="clip-0" clip-rule="evenodd">
+<path d="M 310 2204L 510 2204L 510 2404L 310 2404L 310 2204Z" fill="#FFFFFF"/>
+</clipPath>
+<g id="Velocity Logo Square" clip-path="url(#clip-0)">
+<g id="Group">
+<g id="Front">
+<use xlink:href="#path0_fill" transform="translate(399.524 2253.5)"/>
+</g>
+<g id="Back">
+<use xlink:href="#path1_fill" transform="translate(360 2235)"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 59.6547L 0 120L 60.4762 60L 60.4762 0L 0 59.6547Z"/>
+<path id="path1_fill" d="M 0 60.5L 0 0L 56.5 56L 36 77L 36 96L 0 60.5Z"/>
+</defs>
+</svg>

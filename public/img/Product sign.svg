@@ -1,0 +1,18 @@
+<svg width="132" height="262" viewBox="0 0 132 262" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Product sign</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-462 -416)">
+<g id="Product sign">
+<g id="Front">
+<use xlink:href="#path0_fill" transform="translate(462 416)" fill="#2544D6" fill-opacity="0.7"/>
+</g>
+<g id="P">
+<use xlink:href="#path1_fill" transform="translate(494 518)"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 130.246L 0 262L 132 131L 132 0L 0 130.246Z"/>
+<path id="path1_fill" d="M 16.6367 3.79004L 39.2295 3.79004C 43.6956 3.79004 47.2959 5.05469 50.0303 7.58398C 52.7646 10.0905 54.1318 13.6224 54.1318 18.1797C 54.1318 22.099 52.9128 25.5169 50.4746 28.4336C 48.0365 31.3275 44.2881 32.7744 39.2295 32.7744L 23.4385 32.7744L 23.4385 54L 16.6367 54L 16.6367 3.79004ZM 47.2617 18.2139C 47.2617 14.5225 45.8945 12.0159 43.1602 10.6943C 41.6562 9.98796 39.5941 9.63477 36.9736 9.63477L 23.4385 9.63477L 23.4385 27.0322L 36.9736 27.0322C 40.027 27.0322 42.4993 26.3828 44.3906 25.084C 46.3047 23.7852 47.2617 21.4951 47.2617 18.2139Z"/>
+</defs>
+</svg>
